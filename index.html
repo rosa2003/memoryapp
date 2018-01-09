@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>brikker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" conent="yes">
+<link rel="apple-touch-icon-precomposed" href="icon.png"/>
+<link rel="apple-touch-icon" href="icon.png"/>
+<link rel="manifest" href="web-app-manifest.ison">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="welcome">
+<h1>Velkommen til verdens bedste huskespil</h1>
+<p>Vælg et antal brikker</p>
+<form id="playGame">
+  <input type="radio" name="numberOfTiles" id="sixteen" value="16" checked>
+  <label for="sixteen">16</label>
+  <input type="radio" name="numberOfTiles" id="twenty" value="20">
+  <label for="twenty">20</label>
+  <input type="radio" name="numberOfTiles" id="twentyfour" value="24">
+  <label for="twentyfour">24</label>
+  
+  <button type="submit">Start spillet</button>
+
+</form>
+</div>
+<div id="board"> 
+</div>
+<div id="message">
+  <p>Congrats! You got 'em all!</p>
+  <button>End game!</button>
+</div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
